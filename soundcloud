@@ -1,0 +1,10 @@
+#!name = SoundCloud Go+
+#!desc = Kích hoạt SoundCloud Go+
+#!author = Anh Tuấn
+
+[Script]
+# SoundCloud Go+ Script
+SoundCloudGo = type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/SoundCloudGoPlus.js
+
+[MITM]
+hostname = %APPEND%, api-mobile.soundcloud.com
