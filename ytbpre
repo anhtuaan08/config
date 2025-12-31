@@ -1,6 +1,6 @@
-#!name = YouTube Premium Only
-#!desc = Chỉ kích hoạt YouTube Premium
-#!author = Gấu Lỏz CUTO
+#!name = YouTube Premium
+#!desc = Kích hoạt YouTube Premium
+#!author = Anh Tuấn
 
 [Rule]
 # Các rule chặn quảng cáo YouTube
