@@ -9,7 +9,7 @@
 
 [Script]
 # Locket - RevenueCat Script
-revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/anhtuaan08/config/refs/heads/main/module/js/locket15s.js
+revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/anhtuaan08/config/refs/heads/main/module/js/gold.js
 
 # Locket - Xóa header bổ sung
 deleteHeader = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/anhtuaan08/config/refs/heads/main/module/js/head.js,timeout=60
